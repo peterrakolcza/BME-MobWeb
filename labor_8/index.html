@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+	<form action="postform.html" method="post">
+
+
+		<label for="name">Név:</label>
+		<input type="text" id="name" 
+		name="name" value="" required>
+
+		<label for="password">Jelszó:</label>
+		<input type="password" id="password" 
+		name="password" value="mobweb" required>
+
+		<label for="description">Leírás:</label>
+		<textarea id="description" 
+		name="description" value=""></textarea>
+
+
+		<label for="bday">Születési dátum:</label>
+		<input id = "bday" type="date" value="2021-11-07" required>
+
+		<label for="nem">Nem:</label>
+		<select id ="nem">
+			<option value="fiu">fiú</option>
+			<option value="lany">lány</option>
+			<option value="egyeb">egyéb</option>
+		</select>
+
+		<label for="foot">Lábméret:</label>
+		<input id= "foot" type="number" value="35" step="0.5">
+
+
+		<label for="dog">Kutya:</label>
+		<input id="dog" type="checkbox" name="dog" value="dog">
+
+		<input type="submit" value="Küldés">
+
+
+	</form>
+
+</html>
