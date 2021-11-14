@@ -1,0 +1,67 @@
+.author-profile-picture {
+  height: 80px;
+  width: 80px;
+  float: left;
+  padding-right: 10px;
+}
+
+.images > img {
+  display: block;
+  margin: auto;
+}
+
+.news-item {
+  float: left;
+}
+
+header {
+  overflow: hidden;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.news-item p {
+    padding-top: 16px;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+main {
+  padding-top: 80px;
+  padding-right: 20px;
+  width: calc(100% - 350px - 20px - 30px);
+}
+
+.proposed-item {
+  border-bottom: 3px solid #bbb;
+}
+
+footer {
+  display: inline-block;
+  width: 100%;
+}
+
+.newsfeed {
+  background-color: lightgrey;
+  width: 350px;
+  float: right;
+  padding: 15px;
+}
+
+@media (max-width: 900px) {
+    aside {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+    }
+}
+
